@@ -4,7 +4,7 @@ void target(float xPos, float yPos, int numRings, int ringsize)
   noStroke();
   for (int i=numRings; i>0; i--)
   {
-    int size=i*ringsize;
+    float size=i*ringsize;
     int gray=i*(255/numRings);
     fill(gray-5, gray+100, gray-5);
 
